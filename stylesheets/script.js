@@ -39,7 +39,8 @@ function generatePassword() {
     return String.fromCharCode(Math.floor(Math.random() * 26 + 65));
   },
   function getSpecialCharacters() {
-    return specialCharacters(Math.floor(Math.random() * specialCharacters.length)];
+    return specialCharacters(Math.floor(Math.random() * specialCharacters.length));
+  }];
 };
 
 
