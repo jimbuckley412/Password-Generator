@@ -12,7 +12,7 @@ Provide a short description explaining the what, why, and how of your project. U
 The purpose of this project is to show we can create a Password Generator using javaScript. I created a Repository (Password-Generator), cloned it to my computer, and step by step added in a README.md, index.html, script.js, and a style.css then added in the code from the Rutgers Repository.
 In the script.js I will create the code needed to run the generator.  More notes in the script.js file. I wanted to create a password generator that runs on javaScript.
 I wanted to utilize what I learned from the lessons to create this generator.
-The generator will utilize lowercase letters, Uppercase letters, numbers and special characters "!", "?", "@", "$", "#", and "%".  From all these special characters, numbers and letters both upper and lower case to randomly generate a  safe and secure password.  Helps solve the problem of creating a secure password. I learned how to incorporate javaScript to make a functioning app that generates a password.    
+The generator will utilize STRINGS of lowercase & uppercase letters, numbers and special characters "!", "?", "@", "$", "#", and "%".  From all these special characters, numbers and letters both upper and lower case to randomly generate a safe and secure password. The Math.random() and Math.floor() method will be used to achieve this. I will generate a password lenght of 10.  Helps solve the problem of creating a secure password. I learned how to incorporate javaScript to make a functioning app that generates a password. 
 
 ## Table of Contents 
 
