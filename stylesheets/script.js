@@ -10,6 +10,7 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
+  var completedPassword = "";
 
   passwordText.value = password;
 }
@@ -62,6 +63,7 @@ for (let i = 0; i < (parseInt(passwordLength) - minimumCount); i++) {
   var randomNumberPicked = Math.floor(Math.random() * 4);
 
   randomPasswordGenerated += randomNumberPicked;
+  generatePassword();
 }
 
 randomPasswordGenerated += minimumNumbers;
@@ -70,4 +72,4 @@ randomPasswordGenerated += minimumUpperCases;
 randomPasswordGenerated += minimumSpecialCharacters;
 
 return randomPasswordGenerated;
-Event.preventDefault();
+generateBtn.addEventListener("click", generatePassword)
