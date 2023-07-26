@@ -1,9 +1,10 @@
-generateBtn.addEventListener("onclick", writePassword) {
+generateBtn.addEventListener("onclick", writePassword); 
+generateBtn.onclick = window(); {
   var passwordLength = prompt("Please enter the number of characters you want for you new password. It must be more than 12 but less than 128.");
   var pwNumbers = confirm("Do you want numbers in your Password?");
   var lowerCases = confirm("Do you want Lower Cases in you Password?");
   var upperCases = confirm("Do you want Capital Letters in your password?");
-  var specialCharacters = confirm("Do you want Special Characters in your password?"));
+  var specialCharacters = confirm("Do you want Special Characters in your password?");
   }
 
 // moved the function writePassword
@@ -11,14 +12,14 @@ function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password")
   //  added variables for the password 
-  var specialCharacters = "?!@#$%".split("");
-  var upperCases = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-  var lowerCases ="abcdefghijklmnopqrstuvwxyz".split("");
-  var pwNumbers = "0123456789".split("");
+  var specialCharacters = "?, !, @, #, $, %";
+  var upperCases = "A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z";
+  var lowerCases ="a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z";
+  var pwNumbers = "0, 1, 2, 3, 4, 5, 6, 7, 8, 9";
+  var passwordLength = prompt();
   //  created a variable lettersMix that is a combination of all variables mixed.
   var lettersMix = [...specialCharacters, ...upperCases, ...lowerCases, ...pwNumbers];
-  var characterLength = lettersMix.length;
-  var generateButton = document.querySelector("generateBtn");
+  var passwordLength = lettersMix.passwordLength;
   passwordText.value = password;
 }
 //prompts to generate Pasword function
